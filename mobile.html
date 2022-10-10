@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>RocketNFTs</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navigation" class="container">
+        <a href=""
+          ><img src="./assets/logo.svg" alt="Imagem da logo RocketNFTs"
+        /></a>
+        <ul>
+          <li><a href="">Comprar NFT</a></li>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">FAQ</a></li>
+        </ul>
+        <button>
+          <img
+            src="./assets/logo_MetaMask.svg"
+            alt="Image da logo da Metamask"
+          />Conectar carteira
+        </button>
+        <button class="open-menu" onclick="openMenu()">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 20H30"
+              stroke="#ff5b50"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 12H30"
+              stroke="#ff5b50"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 28L30 28"
+              stroke="#ff5b50"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <button class="close-menu" onclick="closeMenu()">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#ff5b50"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="container">
+          <div class="content">
+            <div class="artists">
+              <p>
+                Mercado digital para colecionáveis em criptos e tokens não
+                fungível (NFT). Compre, venda e descubra ativos digitais
+                exclusivos para você.
+              </p>
+              <div class="avatars">
+                <img src="./assets/group-avarts.png" alt="" />
+                <div class="text">
+                  <span>+10</span>
+                  <span>Artistas selecionados</span>
+                </div>
+              </div>
+            </div>
+            <h1>
+              Descubra a verdadeira arte digital e colecione diversas
+              <span class="paint">NFTs</span>
+            </h1>
+            <img src="./assets/badge.svg" alt="Imagem de uma insignia" />
+          </div>
+          <div class="gallery">
+            <div>
+              <img src="./assets/galeria-1.png" alt="Imagem da galeria 1" />
+              <img src="./assets/galeria-2.png" alt="Imagem da galeria 2" />
+              <img src="./assets/galeria-3.png" alt="Imagem da galeria 3" />
+              <img src="./assets/galeria-4.png" alt="Imagem da galeria 4" />
+            </div>
+            <div>
+              <img src="./assets/galeria-5.png" alt="Imagem da galeria 5" />
+              <img src="./assets/galeria-6.png" alt="Imagem da galeria 6" />
+              <img src="./assets/galeria-7.png" alt="Imagem da galeria 7" />
+              <img src="./assets/galeria-8.png" alt="Imagem da galeria 8" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container">
+          <aside>
+            <div class="info">
+              <h1>10K+</h1>
+              <span>Artes</span>
+            </div>
+            <div class="info">
+              <h1>200+</h1>
+              <span>Vendas</span>
+            </div>
+            <div class="info">
+              <h1>20</h1>
+              <span>Artistas</span>
+            </div>
+          </aside>
+          <div class="image">
+            <div class="about">
+              <div class="link-notice">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Congue malesuada amet pretium lacus. Id
+                  <span class="paint">potenti diam </span> et cras odio viverra.
+                  Amet, velit ut hac sit. Enim ultricies mauris mattis nunc
+                  semper.
+                </p>
+                <a href="">Lorem ipsum</a>
+              </div>
+              <div class="link-notice">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Congue malesuada amet pretium lacus. Id
+                  <span class="paint">potenti diam </span> et cras odio viverra.
+                  Amet, velit ut hac sit. Enim ultricies mauris mattis nunc
+                  semper.
+                </p>
+                <a href="">Lorem ipsum</a>
+              </div>
+            </div>
+            <img src="./assets/banner.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="popular">
+        <div class="container">
+          <h1><span class="paint">Populares </span>da semana</h1>
+          <div class="content">
+            <div class="cards">
+              <div class="astronaut">
+                <header>
+                  <h2>Astronauta 1</h2>
+                  <a href=""><img src="./assets/arrow-white.svg" alt="" /></a>
+                </header>
+                <div>
+                  <span>Mayk Brito</span>
+                  <span class="paint">1.50 RKT</span>
+                </div>
+                <img src="./assets/astronauta 1.png" alt="" />
+              </div>
+              <div class="astronaut">
+                <header>
+                  <h2>Astronauta 3</h2>
+                  <a href=""><img src="./assets/arrow-white.svg" alt="" /></a>
+                </header>
+                <div>
+                  <span>João Inácio (Biro)</span>
+                  <span class="paint">3.75 RKT</span>
+                </div>
+                <img src="./assets/astronauta-3.png" alt="" />
+              </div>
+            </div>
+            <div class="cards">
+              <div class="astronaut">
+                <header>
+                  <h2>Astronauta 2</h2>
+                  <a href=""><img src="./assets/arrow-white.svg" alt="" /></a>
+                </header>
+                <div>
+                  <span>Jakeliny Gracielly</span>
+                  <span class="paint">2.0 RKT</span>
+                </div>
+                <img src="./assets/astronauta-2.png" alt="" />
+              </div>
+              <div class="astronaut">
+                <header>
+                  <h2>Astronauta 4</h2>
+                  <a href=""><img src="./assets/arrow-white.svg" alt="" /></a>
+                </header>
+                <div>
+                  <span>Tamires Santos</span>
+                  <span class="paint">4.30 RKT</span>
+                </div>
+                <img src="./assets/astronauta-4.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="artists">
+        <div class="container">
+          <h1>Melhores <span class="paint">artistas</span></h1>
+          <div class="best-artists">
+            <div class="artists">
+              <div class="card">
+                <img src="./assets/artista-1.png" alt="Imagem do artista 1" />
+                <div>
+                  <span>Mayk Brito</span>
+                  <span class="paint">80 Fotografias</span>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/artista-1.png" alt="Imagem do artista 1" />
+                <div>
+                  <span>Mayk Brito</span>
+                  <span class="paint">80 Fotografias</span>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/artista-1.png" alt="Imagem do artista 1" />
+                <div>
+                  <span>Mayk Brito</span>
+                  <span class="paint">80 Fotografias</span>
+                </div>
+              </div>
+            </div>
+            <div class="artists">
+              <div class="card">
+                <img src="./assets/artista-1.png" alt="Imagem do artista 1" />
+                <div>
+                  <span>Mayk Brito</span>
+                  <span class="paint">80 Fotografias</span>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/artista-1.png" alt="Imagem do artista 1" />
+                <div>
+                  <span>Mayk Brito</span>
+                  <span class="paint">80 Fotografias</span>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/artista-1.png" alt="Imagem do artista 1" />
+                <div>
+                  <span>Mayk Brito</span>
+                  <span class="paint">80 Fotografias</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="show-all">
+            <a href="#home"
+              >Ver todos os artistas
+              <img src="./assets/arrow-orange.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="container">
+          <header>
+            <img src="./assets/logo.svg" alt="" />
+            <a href="#home">
+              <img src="./assets/arrow-black.svg" alt="" />
+            </a>
+          </header>
+          <div class="content">
+            <div class="email">
+              <p>
+                Fique por dentro de
+                <span class="paint">todas as novidades</span>
+              </p>
+              <div>
+                <input placeholder="ntf@rocketseat.com.br" type="email" />
+                <button>Enviar</button>
+              </div>
+            </div>
+            <div class="links">
+              <ul>
+                <li>Empresa</li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Carreira</a></li>
+                <li><a href="">Time</a></li>
+              </ul>
+              <ul>
+                <li>Mapa</li>
+                <li><a href="">Galeria</a></li>
+                <li><a href="">Populares</a></li>
+                <li><a href="">Vendas</a></li>
+                <li><a href="">Contato</a></li>
+              </ul>
+              <ul>
+                <li>Links</li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Termos</a></li>
+                <li><a href="">Política</a></li>
+                <li><a href="">Ajuda</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="">www.rocketseat.com.br</a>
+
+            <ul class="social">
+              <li>
+                <a href=""><img src="./assets/instagram.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/youtube.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/twitter.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/email.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
